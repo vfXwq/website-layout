@@ -4,20 +4,76 @@
     text-decoration: none;
     list-style-type: none;
     font-family: Roboto;
+    margin: 0;
+    padding: 0;
 }
 .header {
+    border-radius: 0%;
+    background-color: #1F2937 ;
     display: flex;
     justify-content: space-between;
-    padding: 4px;
-    margin: 0;
-    background-color: #1F2937 ;
+    align-items: center;
+}
+.header, .top1 {
+    padding: 16px 15%;
+}
+.header p {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
 }
 .right ul {
-    display: flex;
-    justify-content: space-between;
     gap: 24px;
+    display: flex;
 }
 .right a {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.top1 {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 100px 15%;
+}
+.one .heading {
+    font-weight: 900;
+    font-size: 48px;
+    color: #f9faf8;
+}
+.one .subheading {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.one button {
+    background-color: #3882f6;
+    border: 0px;
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 8px 32px;
+    margin-top: 16px;
+    border-radius: 8px;
+}
+.top1 .one {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 8px 0px;
+    padding-right: 56px;
+
+}
+.top1 .two {
+    color: white;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    min-width: 50%;
 }
