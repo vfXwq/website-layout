@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+/*general start*/
 * {
     text-decoration: none;
     list-style-type: none;
@@ -7,6 +8,9 @@
     margin: 0;
     padding: 0;
 }
+/*general end*/
+
+/*header start*/
 .header {
     border-radius: 0%;
     background-color: #1F2937 ;
@@ -30,7 +34,9 @@
     font-size: 18px;
     color: #e5e7eb;
 }
+/*header end*/
 
+/*one start*/
 .top1 {
     background-color: #1F2937;
     display: flex;
@@ -77,7 +83,9 @@
     flex: 1;
     min-width: 50%;
 }
+/*one end*/
 
+/*one start*/
 .top2 p {
-    
+
 }
