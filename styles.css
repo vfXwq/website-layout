@@ -85,28 +85,29 @@
 }
 /*one end*/
 
-/*one start*/
+/*two start*/
 .top2 .heading {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
     text-align: center;
+    padding: 48px;
 }
 .top2 .info{
-    flex-grow: 1;
     display: flex;
     flex-direction: column;
-    align-items: center;
     text-align: center;
+    align-items: center;
 }
 .boxes {
     display: flex;
-    gap: 20px;
+    justify-content: center;
+    gap: 48px;
 }
 .info div {
     width: 150px;
     height: 150px;
-    border-radius: 24px;
+    border-radius: 20px;
     border-style: solid;
     border-color: #3882f6;
     border-width: 3px;
@@ -116,5 +117,10 @@
 .info p {
     font-size: 16px;
     color: dimgray;
-    max-width: 150px;
+    width: 150px;
+    margin-top: 4px;
+    margin-bottom: 96px;
 }
+/*two end*/
+
+/*three start*/
