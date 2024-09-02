@@ -187,4 +187,17 @@
     border-style: solid;
     margin: auto 0;
     margin-left: 96px;
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+/*four end*/
+
+/*footer start*/
+.footer {
+    font-size: 18px;
+    color: #e5e7eb;
+    background-color: #1f2937;
+    padding: 16px;
+    text-align: center;
+
 }
