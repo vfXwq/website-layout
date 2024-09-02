@@ -7,6 +7,7 @@
     font-family: Roboto;
     margin: 0;
     padding: 0;
+    border: 0;
 }
 /*general end*/
 
@@ -142,3 +143,44 @@
 /*three end*/
 
 /*four start*/
+.top4 {
+    
+}
+.top4 .container {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top4 .heading {
+    color: white;
+    font-weight: 500;
+}
+.top4 .subheading {
+    color: #e5e7eb;
+    font-size: 12px;
+}
+.top4 .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.top4 .right {
+
+}
+.top4 button {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 14px;
+    font-weight: 900;
+    padding: 8px 32px;
+    margin-top: 16px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    margin: auto 0;
+}
